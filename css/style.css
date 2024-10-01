@@ -19,6 +19,17 @@
    
 }
 
+.check{
+    color: green;
+    margin-right: 18px;
+    margin-left: 8px;
+    
+}
+
+.elementi-lista{
+    margin-top: 10px;
+}
+
 /* HEADER */
 
 header {
@@ -36,9 +47,10 @@ header {
 .container-main {
     border: 1px solid black;
     margin: 0 auto;
-    width: 800px;
+    width: 1000px;
     height: 1600px;
     padding: 20px 50px;
+    background-color: #fff;
 
     
 }
@@ -46,4 +58,38 @@ header {
 body {
     background-color: #f6f8f9;
 
+}
+
+.sezione-ricerca{
+    margin-bottom: 50px;
+
+}
+
+.bottone {
+    background-color: #47adf1;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: small;
+
+}
+
+.ricerca {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+
+}
+
+.lista{
+    list-style: none
+}
+
+.sezione-NT{
+    ;
 }
