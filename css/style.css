@@ -178,3 +178,26 @@ body {
 
 /* fine lista */
 
+.Website{
+    background-color: #d863a1;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+}
+
+.Sales{
+    background-color: #b0c926;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+}
