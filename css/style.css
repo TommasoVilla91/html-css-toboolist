@@ -34,7 +34,7 @@
     color: red;
     margin-right: 18px;
     margin-left: 8px;
-    border: 1px solid green;
+    border: 1px solid red;
     border-radius: 50%;
     display: inline-block;
     width: 25px;
@@ -121,6 +121,10 @@ body {
     list-style: none
 }
 
+.container-lista{
+    margin-bottom: 50px;
+}
+
 .editorial{
     background-color: #47adf1;
     color: white;
@@ -135,3 +139,42 @@ body {
 }
 
 /* centro lista */
+
+.Q1-Goals {
+    background-color: #9c72e4;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+}
+
+.Recruiting{
+    background-color: #64c0a9;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+}
+
+.mobile{
+    background-color: #f29e33;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+}
+
+/* fine lista */
+
