@@ -23,7 +23,22 @@
     color: green;
     margin-right: 18px;
     margin-left: 8px;
-    
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
+.croce{
+    color: red;
+    margin-right: 18px;
+    margin-left: 8px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
 }
 
 .elementi-lista{
@@ -32,17 +47,35 @@
 
 /* HEADER */
 
-header {
-    background-color: #f6f8f9;
+.header {
+    background-color: #fff;
+    
 }
 
-.logo-titolo{
+.container-header {
+    max-width: 3000px;
+    margin: 15px;
+   
+}
+
+.logo {
+    vertical-align: middle;
+}
+  
+.container-header .testo-logo{
+    font-size: xx-large;
     vertical-align: middle;
     
+
 }
 
 
 /* MAIN */
+
+body {
+    background-color: #f6f8f9;
+
+}
 
 .container-main {
     border: 1px solid black;
@@ -55,12 +88,8 @@ header {
     
 }
 
-body {
-    background-color: #f6f8f9;
-
-}
-
-.sezione-ricerca{
+ /* top main */
+.sezione-add{
     margin-bottom: 50px;
 
 }
@@ -68,17 +97,17 @@ body {
 .bottone {
     background-color: #47adf1;
     color: white;
-    display: inline-block;
-    text-align: center;
     width: 80px;
     height: 30px;
     border-radius: 5px;
-    padding-top: 5px;
     font-size: small;
+    border: 1px solid rgb(201, 201, 201);
 
 }
 
-.ricerca {
+.bottone-b {
+    background-color: white;
+    color: lightgray;
     width: 120px;
     height: 30px;
     border-radius: 5px;
@@ -86,10 +115,23 @@ body {
 
 }
 
+/* inizio lista */
+
 .lista{
     list-style: none
 }
 
-.sezione-NT{
-    ;
+.editorial{
+    background-color: #47adf1;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 13px;
+    padding-top: 5px;
+    font-size: small;
+    
 }
+
+/* centro lista */
